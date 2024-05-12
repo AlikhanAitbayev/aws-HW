@@ -1,2 +1,2 @@
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/AlikhanAitbayev/aws-HW/actions/workflows/deploy.yml/badge.svg)
 # aws-HW
