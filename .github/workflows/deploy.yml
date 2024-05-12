@@ -43,7 +43,9 @@ jobs:
         terraform init -upgrade
 
     - name: Terraform Apply
-      run: terraform apply -auto-approve
+      run: |
+        cd terraform/
+        terraform apply -auto-approve
     
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
