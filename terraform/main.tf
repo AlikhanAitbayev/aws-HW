@@ -113,9 +113,3 @@ resource "aws_instance" "ec2-alikhan-aitbayev" {
   }
 }
 
-
-resource "aws_ec2_instance_state" "ec2-alikhan-aitbayev" {
-  instance_id = aws_instance.ec2-alikhan-aitbayev.id
-  state       = "stopped"
-}
-
